@@ -7,12 +7,17 @@
 //
 
 #include <iostream>
+#include <vector>
+#include <fstream>
+
+#include "Action.h"
+
+using namespace std;
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    vector<Action> actions;
+    ifstream ifs;
     return 0;
 }
 
