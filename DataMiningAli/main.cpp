@@ -12,8 +12,6 @@ using namespace std;
 
 int main(int argc, const char * argv[])
 {
-    vector<Action> actions;
-    ifstream ifs;
-    return 0;
+        return 0;
 }
 
