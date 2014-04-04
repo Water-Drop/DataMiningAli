@@ -21,3 +21,10 @@ Date::Date(Date &date)
     month = date.month;
     day = date.day;
 };
+
+Date::Date()
+{
+    year = 0;
+    month = 0;
+    day = 0;
+};

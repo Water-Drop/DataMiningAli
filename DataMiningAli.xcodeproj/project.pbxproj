@@ -30,6 +30,7 @@
 		045908B218ED399A002B68C5 /* DataMiningAli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataMiningAli; sourceTree = BUILT_PRODUCTS_DIR; };
 		045908B518ED399A002B68C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		045908B718ED399A002B68C5 /* DataMiningAli.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DataMiningAli.1; sourceTree = "<group>"; };
+		0491DD0018EF0B9C00C30781 /* PurchaseCycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurchaseCycle.h; sourceTree = "<group>"; };
 		049E242B18EE58EF00EEEA2C /* Action.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
 		049E242C18EE5A6500EEEA2C /* Date.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Date.h; sourceTree = "<group>"; };
 		049E242D18EE5BC400EEEA2C /* Date.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Date.cpp; sourceTree = "<group>"; };
@@ -72,6 +73,7 @@
 				049E242C18EE5A6500EEEA2C /* Date.h */,
 				049E242D18EE5BC400EEEA2C /* Date.cpp */,
 				049E242F18EE5D2900EEEA2C /* Action.cpp */,
+				0491DD0018EF0B9C00C30781 /* PurchaseCycle.h */,
 			);
 			path = DataMiningAli;
 			sourceTree = "<group>";
