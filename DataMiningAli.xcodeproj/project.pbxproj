@@ -11,6 +11,8 @@
 		045908B818ED399A002B68C5 /* DataMiningAli.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 045908B718ED399A002B68C5 /* DataMiningAli.1 */; };
 		049E242E18EE5BC400EEEA2C /* Date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E242D18EE5BC400EEEA2C /* Date.cpp */; };
 		049E243018EE5D2900EEEA2C /* Action.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049E242F18EE5D2900EEEA2C /* Action.cpp */; };
+		04F42AD618EFFEB30052990E /* DateHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04F42AD518EFFEB30052990E /* DateHelper.cpp */; };
+		04F42AD818F036250052990E /* PurchaseCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04F42AD718F036250052990E /* PurchaseCycle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,10 @@
 		049E242C18EE5A6500EEEA2C /* Date.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Date.h; sourceTree = "<group>"; };
 		049E242D18EE5BC400EEEA2C /* Date.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Date.cpp; sourceTree = "<group>"; };
 		049E242F18EE5D2900EEEA2C /* Action.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Action.cpp; sourceTree = "<group>"; };
+		04F42AD418EFFC030052990E /* DateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateHelper.h; sourceTree = "<group>"; };
+		04F42AD518EFFEB30052990E /* DateHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateHelper.cpp; sourceTree = "<group>"; };
+		04F42AD718F036250052990E /* PurchaseCycle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PurchaseCycle.cpp; sourceTree = "<group>"; };
+		04F42AD918F043460052990E /* PurchaseTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurchaseTime.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 				049E242D18EE5BC400EEEA2C /* Date.cpp */,
 				049E242F18EE5D2900EEEA2C /* Action.cpp */,
 				0491DD0018EF0B9C00C30781 /* PurchaseCycle.h */,
+				04F42AD718F036250052990E /* PurchaseCycle.cpp */,
+				04F42AD418EFFC030052990E /* DateHelper.h */,
+				04F42AD518EFFEB30052990E /* DateHelper.cpp */,
+				04F42AD918F043460052990E /* PurchaseTime.h */,
 			);
 			path = DataMiningAli;
 			sourceTree = "<group>";
@@ -129,7 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F42AD818F036250052990E /* PurchaseCycle.cpp in Sources */,
 				045908B618ED399A002B68C5 /* main.cpp in Sources */,
+				04F42AD618EFFEB30052990E /* DateHelper.cpp in Sources */,
 				049E243018EE5D2900EEEA2C /* Action.cpp in Sources */,
 				049E242E18EE5BC400EEEA2C /* Date.cpp in Sources */,
 			);

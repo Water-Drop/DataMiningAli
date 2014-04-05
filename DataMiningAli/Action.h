@@ -15,6 +15,7 @@ class Action
 {
 public:
     Action(int _user_id, int _brand_id, int _action_type, Date _date);
+    Action();
     int user_id;
     int brand_id;
     int action_type;

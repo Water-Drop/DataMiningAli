@@ -6,12 +6,13 @@
 //  Copyright (c) 2014年 Water. All rights reserved.
 //
 
-
+#include "PurchaseCycle.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[])
 {
-        return 0;
+    cout << "No build error\n";
+    return 0;
 }
 
