@@ -15,7 +15,7 @@ Date::Date(int _year, int _month, int _day)
     day = _day;
 };
 
-Date::Date(Date &date)
+Date::Date(const Date &date)
 {
     year = date.year;
     month = date.month;

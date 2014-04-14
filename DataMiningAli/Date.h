@@ -13,12 +13,11 @@ class Date
 {
 public:
     Date(int _year, int _month, int _day);
-    Date(Date &date);
+    Date(const Date &date);
     Date();
     int year;
     int month;
     int day;
 };
-
 
 #endif

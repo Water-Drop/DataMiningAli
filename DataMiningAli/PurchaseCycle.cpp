@@ -21,7 +21,7 @@ PurchaseCycle::PurchaseCycle(int _min_cycle_convinced, int _max_cycle_interval, 
 {
     min_cycle_convinced = _min_cycle_convinced;
     max_cycle_interval = _max_cycle_interval;
-    begin_date.year = _date.year;
+    begin_date.year = date.year;
     begin_date.month = date.month;
     begin_date.day = date.day;
 };
@@ -37,29 +37,31 @@ int PurchaseCycle::init_data(ifstream &ifs)
         ss.clear();
         user_actions.push_back(tmp_ac);
     }
-    
     DateHelper dh;
     for(unsigned int i = 0; i < user_actions.size(); i++)
     {
         for(unsigned int j = 0; j < user_purchase_times.size(); j++)
         {
-            if(user_purchase_times.user_id == user_actions[i].user_id)
+            if(user_purchase_times[j].user_id == user_actions[i].user_id)
             {
                 for(unsigned int k = 0; k < user_purchase_times[j].purchase_times.size(); k++)
                 {
-                    if (user_purchase_times[j].purchase_times[k].brand_id == user_action[i].brand_id)
+                    if (user_purchase_times[j].purchase_times[k].brand_id == user_actions[i].brand_id)
                     {
                         user_purchase_times[j].purchase_times[k].degree ++;
-                        user_purchase_times[j].purchase_times[k].purchase_date.push_back(dh.delta_date(user_action[i].date, begin_date);
+                        user_purchase_times[j].purchase_times[k].purchase_date.push_back(dh.delta_date(user_actions[i].date, begin_date));
                     }
                 }
+                
             }
         }
     }
+     
     remove_noise_data();
-    
+    return 0;
 };
 
 int PurchaseCycle::remove_noise_data()
 {
-}
+    return 0;
+};

@@ -26,4 +26,14 @@ Action::Action()
     date.year = 0;
     date.month = 0;
     date.day = 0;
-}
+};
+
+Action::Action(const Action &ac)
+{
+    user_id = ac.user_id;
+    brand_id = ac.brand_id;
+    action_type = ac.action_type;
+    date.year = ac.date.year;
+    date.month = ac.date.month;
+    date.day = ac.date.day;
+};
